@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 36px;
+  font-family: arial;
+}
+
+.color-rgb {
+  color: white;
+  font-size: 28px;
+}
+
+.title-box {
+  background-color: #009294;
+  padding: 1px
+}
+
+.difficulty-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.difficulty-btn {
+  color: #009294;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold
+}
+
+.lives {
+  color: #009294;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1px
+}
+
+.difficulty-btn:hover {
+  color: white;
+  background-color: #009294;
+}
+
+#new-game-btn {
+  width: 150px;
+  margin-left: 200px
+}
+
+#easy-btn:active {
+  color: white;
+  background-color: #009294;
+}
+
+#easy-btn:focus {
+  color: white;
+  background-color: #009294;
+}
+
+
+#hard-btn:active {
+  color: white;
+  background-color: #009294;
+}
+
+#hard-btn:focus {
+  color: white;
+  background-color: #009294;
+}
+
+.color-btn-box {
+  background-color: black;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+
+}
+
+.color-btn {
+  width: 100px;
+  height: 100px;
+  border: 1px black solid;
+  border-radius: 6px;
+  margin: 20px 20px;
+}
+
+.game-results-box{
+  border: 1px black solid;
+  background-color: black;
+  height: 35px
+}
+
+.resultado {
+  margin-top: -5px;
+  color: black;
+}

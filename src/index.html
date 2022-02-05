@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Guess the color</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body onload="newGame()">
+    <!-- Division that contains the title of the game and the color to be
+    guessed -->
+    <div class="title-box">
+      <h1 class="titulo">THE GREAT <br> COLOR GUESSING GAME</h1>
+      <h2 class="color-rgb" id="color-text">GUESS THE FOLLOWING COLOR: </h2>
+    </div>
+
+    <!-- Division that contains the buttons to select the level and change the
+    colors -->
+    <div class="difficulty-box">
+      <button class="difficulty-btn" id="new-game-btn">NEW GAME</button>
+      <p class="lives" id="lives">LIVES: 5 &nbsp;&nbsp;&nbsp;&nbsp; SCORE: 0</p>
+      <div>
+        <button class="difficulty-btn" id="easy-btn">EASY</button>
+        <button class="difficulty-btn" id="hard-btn">HARD</button>
+      </div>
+    </div>
+
+    <!-- Division containing the buttons with the different colors -->
+    <div class="color-btn-box">
+      <button class="color-btn" id="color-btn-1"></button>
+      <button class="color-btn" id="color-btn-2"></button>
+      <button class="color-btn" id="color-btn-3"></button>
+      <button class="color-btn" id="color-btn-4"></button>
+      <button class="color-btn" id="color-btn-5"></button>
+      <button class="color-btn" id="color-btn-6"></button>
+    </div>
+
+    <div class="game-results-box">
+      <h2 class="resultado" id="result-text">Hello</h2>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+</html>
